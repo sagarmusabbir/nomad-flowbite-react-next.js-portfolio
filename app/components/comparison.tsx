@@ -2,6 +2,7 @@ import { Alert, Avatar, Badge } from "flowbite-react";
 import Link from "next/link";
 import type { FC } from "react";
 import { MdPerson, MdInfo } from "react-icons/md";
+import { SiGithub, SiStackoverflow, SiUpwork } from "react-icons/si";
 
 const ComparisonCardsFeatureSection: FC = function () {
   return (
@@ -62,11 +63,10 @@ const ComparisonCardsFeatureSection: FC = function () {
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
-                  Hire Me On
+                  for work or collaboration on
                 </span>
-                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
-                  UpWork
-                </span>
+
+                <SiUpwork className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
               </div>
               <svg
                 className="h-6 w-6 text-emerald-500 dark:text-emerald-500 "
@@ -87,11 +87,9 @@ const ComparisonCardsFeatureSection: FC = function () {
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
-                  browse through my
+                  browse my projects on
                 </span>
-                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
-                  GitHub
-                </span>
+                <SiGithub className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
               </div>
               <svg
                 className="h-6 w-6 text-slate-700 dark:text-slate-400 "
@@ -112,11 +110,10 @@ const ComparisonCardsFeatureSection: FC = function () {
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
-                  check me out on
+                  check out my solutions on
                 </span>
-                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
-                  stackoverflow
-                </span>
+
+                <SiStackoverflow className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
               </div>
               <svg
                 className="h-6 w-6 text-amber-600 dark:text-amber-500"
