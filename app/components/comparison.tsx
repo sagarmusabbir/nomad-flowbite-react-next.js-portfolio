@@ -11,20 +11,35 @@ const ComparisonCardsFeatureSection: FC = function () {
           <div>
             <Badge
               href="#"
-              color="gray"
+              color="light"
               icon={MdInfo}
-              size="sm"
-              className="mb-4 font-normal"
+              size="xs"
+              theme={{
+                root: {
+                  color: {
+                    gray: "bg-slate-100 text-gray-600 group-hover:bg-slate-200 dark:bg-gray-700 dark:text-gray-500 dark:group-hover:bg-gray-600",
+                  },
+                },
+              }}
+              className="mb-4 font-light"
             >
-              <span className="font-medium">New!</span> Tailwind Developer
+              <span className="font-base">New!</span> Tailwind Developer
               Portfolio Template is Out Now.
             </Badge>
             <Avatar
-              img="/coding.png"
+              img="/person.svg"
               rounded
               bordered
               size="xl"
               className="justify-start mb-4"
+              color="gray"
+              theme={{
+                root: {
+                  color: {
+                    gray: " bg-slate-200 ring-slate-300 shadow-lg ",
+                  },
+                },
+              }}
             >
               <div className="space-y-1 font-medium text-2xl dark:text-white">
                 <div>Nomad Developer</div>
@@ -43,13 +58,13 @@ const ComparisonCardsFeatureSection: FC = function () {
           <div>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-4 border-emerald-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-emerald-500 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-emerald-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-emerald-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   Hire Me On
                 </span>
-                <span className="text-xl font-semibold text-emerald-600 dark:text-emerald-500">
+                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
                   UpWork
                 </span>
               </div>
@@ -68,13 +83,13 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-4 border-slate-700 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-slate-700 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-400 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   browse through my
                 </span>
-                <span className="text-xl font-semibold text-slate-700 dark:text-slate-400">
+                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
                   GitHub
                 </span>
               </div>
@@ -93,13 +108,13 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="flex items-center justify-between rounded-lg border-l-4 border-amber-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-amber-500 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="flex items-center justify-between rounded-lg border-l-2 border-amber-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-amber-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   check me out on
                 </span>
-                <span className="text-xl font-semibold text-amber-600 dark:text-amber-500">
+                <span className="text-xl font-semibold text-gray-600 dark:text-gray-500">
                   stackoverflow
                 </span>
               </div>

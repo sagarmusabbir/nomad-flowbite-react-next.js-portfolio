@@ -2,19 +2,21 @@
 import { Button, ButtonGroup, DarkThemeToggle, Navbar } from "flowbite-react";
 import Link from "next/link";
 import type { FC } from "react";
-import { MdDownload } from "react-icons/md";
+import { MdDownload, MdFace6 } from "react-icons/md";
+import { GiHoodedFigure } from "react-icons/gi";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-lg bg-opacity-30 bg-slate-200 dark:bg-gray-800 ">
       <Navbar className=" max-w-screen-lg mx-auto bg-transparent">
         <Navbar.Brand href="https://flowbite.com">
-          <img
+          {/* <img
             src="/logo.svg"
             className="mr-3 h-6 sm:h-9"
             alt="Flowbite Logo"
-          />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-slate-300 text-gray-700">
+          /> */}
+          <GiHoodedFigure className="mr-3 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" />
+          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-slate-200 text-gray-800">
             Nomad Portfolio
           </span>
         </Navbar.Brand>
