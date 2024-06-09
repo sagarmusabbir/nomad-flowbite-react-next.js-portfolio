@@ -64,12 +64,12 @@ const DefaultHeaderNavigation: FC = function () {
                 on: "bg-slate-600 text-white dark:text-white  md:bg-transparent md:text-slate-700",
               },
             }}
-className="md:flex md:items-center md:justify-between"
+className="md:inline-flex md:items-center md:justify-between"
 
             href="#"
           >
             <span>Home</span>
-<MdFace6 className="w-4 h-4 hidden md:block ml-2"
+<MdFace6 className="w-4 h-4 hidden md:block ml-2"/>
           </Navbar.Link>
           <Navbar.Link href="#">About</Navbar.Link>
           <Navbar.Link href="#">Projects</Navbar.Link>
