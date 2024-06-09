@@ -2,7 +2,7 @@
 import { Button, ButtonGroup, DarkThemeToggle, Navbar } from "flowbite-react";
 import Link from "next/link";
 import type { FC } from "react";
-import { MdDownload, MdFace6 } from "react-icons/md";
+import { MdDownload, MdFace6, MdLocalPhone, MdKeyboard, MdComputer,MdPerson, MdHome } from "react-icons/md";
 import { GiHoodedFigure } from "react-icons/gi";
 
 const DefaultHeaderNavigation: FC = function () {
@@ -69,12 +69,16 @@ className="flex lg:flex-none items-center justify-between"
             href="#"
           >
             <span>Home</span>
-<MdFace6 className="w-4 h-4 lg:hidden fill-white ml-2"/>
+<MdHome className="w-4 h-4 lg:hidden fill-white ml-2"/>
           </Navbar.Link>
-          <Navbar.Link href="#">About</Navbar.Link>
-          <Navbar.Link href="#">Projects</Navbar.Link>
-          <Navbar.Link href="#">Blog</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">About
+<MdPerson className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+          <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Projects
+<MdComputer className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+          <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Blog
+<MdKeyboard className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+          <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Contact
+<MdLocalPhone className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </header>
