@@ -53,9 +53,9 @@ const DefaultHeaderNavigation: FC = function () {
         </div>
         <Navbar.Collapse
           theme={{
-            list: "mt-4 flex flex-col lg:mt-0 lg:flex-row lg:space-x-8 lg:text-base lg:font-medium",
+            list: "my-4 flex flex-col lg:my-0 lg:flex-row lg:space-x-8 lg:text-base lg:font-medium",
           }}
-          className="lg:order-1 active:min-h-screen"
+          className="lg:order-1 md:rounded-lg"
         >
           <Navbar.Link
             active
@@ -64,9 +64,12 @@ const DefaultHeaderNavigation: FC = function () {
                 on: "bg-slate-600 text-white dark:text-white  md:bg-transparent md:text-slate-700",
               },
             }}
+className="md:flex md:items-center md:justify-between""
+
             href="#"
           >
-            Home
+            <span>Home</span>
+<MdFace6 className="w-4 h-4 hidden md:block ml-2"
           </Navbar.Link>
           <Navbar.Link href="#">About</Navbar.Link>
           <Navbar.Link href="#">Projects</Navbar.Link>
