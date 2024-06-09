@@ -64,7 +64,7 @@ const DefaultHeaderNavigation: FC = function () {
                 on: "bg-slate-600 text-white dark:text-white  md:bg-transparent md:text-slate-700",
               },
             }}
-className="md:inline-flex lg:block items-center justify-between"
+className="inline-flex lg:block items-center justify-between"
 
             href="#"
           >
