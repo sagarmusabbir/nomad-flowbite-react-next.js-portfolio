@@ -37,12 +37,12 @@ const ComparisonCardsFeatureSection: FC = function () {
               theme={{
                 root: {
                   color: {
-                    gray: " bg-slate-200 ring-slate-300 shadow-lg ",
+                    gray: " bg-slate-200 ring-slate-300 rounded-full shadow-lg ",
                   },
                 },
               }}
             >
-              <div className="space-y-1 font-medium text-2xl dark:text-white">
+              <div className="space-y-1 font-medium text-xl dark:text-white">
                 <div>Nomad Developer</div>
                 <div className=" text-md text-gray-500 dark:text-gray-400">
                   AWS Cloud Architect
