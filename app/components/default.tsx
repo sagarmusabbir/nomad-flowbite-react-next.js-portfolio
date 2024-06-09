@@ -72,13 +72,13 @@ className="flex lg:flex-none items-center justify-between"
 <MdHome className="w-4 h-4 lg:hidden fill-white ml-2"/>
           </Navbar.Link>
           <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">About
-<MdPerson className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+<MdPerson className="w-4 h-4 lg:hidden fill-gray-700 ml-2"/></Navbar.Link>
           <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Projects
-<MdComputer className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+<MdComputer className="w-4 h-4 lg:hidden fill-gray-700 ml-2"/></Navbar.Link>
           <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Blog
-<MdKeyboard className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+<MdKeyboard className="w-4 h-4 lg:hidden fill-gray-700 ml-2"/></Navbar.Link>
           <Navbar.Link href="#" className="flex lg:flex-none items-center justify-between">Contact
-<MdLocalPhone className="w-4 h-4 lg:hidden fill-white ml-2"/></Navbar.Link>
+<MdLocalPhone className="w-4 h-4 lg:hidden fill-gray-700 ml-2"/></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </header>
