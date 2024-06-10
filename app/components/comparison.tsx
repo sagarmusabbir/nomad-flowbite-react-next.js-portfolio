@@ -1,7 +1,14 @@
 import { Alert, Avatar, Badge } from "flowbite-react";
 import Link from "next/link";
 import type { FC } from "react";
-import { MdPerson, MdInfo } from "react-icons/md";
+import {
+  MdPerson,
+  MdInfo,
+  MdArrowRight,
+  MdArrowForward,
+  MdNewLabel,
+  MdNewReleases,
+} from "react-icons/md";
 import { SiGithub, SiStackoverflow, SiUpwork } from "react-icons/si";
 
 const ComparisonCardsFeatureSection: FC = function () {
@@ -13,18 +20,18 @@ const ComparisonCardsFeatureSection: FC = function () {
             <Badge
               href="#"
               color="light"
-              icon={MdInfo}
+              icon={MdNewLabel}
               size="xs"
               theme={{
                 root: {
                   color: {
-                    gray: "bg-slate-100 text-gray-600 group-hover:bg-slate-200 dark:bg-gray-700 dark:text-gray-500 dark:group-hover:bg-gray-600",
+                    gray: "bg-gray-50 text-gray-700 group-hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-400 dark:group-hover:bg-gray-800",
                   },
                 },
               }}
               className="mb-4 font-light"
             >
-              <span className="font-base">New!</span> Tailwind Developer
+              <span className="font-medium">New!</span> Tailwind Developer
               Portfolio Template is Out Now.
             </Badge>
             <Avatar
@@ -59,27 +66,16 @@ const ComparisonCardsFeatureSection: FC = function () {
           <div>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-emerald-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-emerald-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-gray-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   for work or collaboration on
                 </span>
 
-                <SiUpwork className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
+                <SiUpwork className="w-6 h-6  fill-emerald-600 dark:fill-emerald-500" />
               </div>
-              <svg
-                className="h-6 w-6 text-emerald-500 dark:text-emerald-500 "
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <MdArrowForward className="h-6 w-6 text-gray-700 dark:text-gray-400 " />
             </a>
             <a
               href="#"
@@ -89,44 +85,22 @@ const ComparisonCardsFeatureSection: FC = function () {
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   browse my projects on
                 </span>
-                <SiGithub className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
+                <SiGithub className="w-6 h-6  fill-slate-700 dark:fill-slate-500" />
               </div>
-              <svg
-                className="h-6 w-6 text-slate-700 dark:text-slate-400 "
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <MdArrowForward className="h-6 w-6 text-gray-700 dark:text-gray-400 " />
             </a>
             <a
               href="#"
-              className="flex items-center justify-between rounded-lg border-l-2 border-amber-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-amber-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
+              className="flex items-center justify-between rounded-lg border-l-2 border-gray-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
                   check out my solutions on
                 </span>
 
-                <SiStackoverflow className="w-6 h-6  fill-gray-600 dark:fill-gray-500" />
+                <SiStackoverflow className="w-6 h-6  fill-amber-600 dark:fill-amber-500" />
               </div>
-              <svg
-                className="h-6 w-6 text-amber-600 dark:text-amber-500"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <MdArrowForward className="h-6 w-6 text-gray-700 dark:text-gray-400 " />
             </a>
           </div>
         </div>
