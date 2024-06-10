@@ -31,7 +31,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Our first office</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.
@@ -39,7 +39,7 @@ const CardWithImageBlogSection: FC = function () {
             <div className="flex items-center space-x-4">
               <a
                 href="#"
-                className="inline-flex items-center font-medium text-primary-600 hover:underline dark:text-primary-500"
+                className="inline-flex items-center font-medium text-slate-800 hover:underline dark:text-slate-400"
               >
                 Read more
                 <svg
@@ -73,7 +73,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">We partnered up with Google</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.
@@ -81,7 +81,7 @@ const CardWithImageBlogSection: FC = function () {
             <div className="flex items-center space-x-4">
               <a
                 href="#"
-                className="inline-flex items-center font-medium text-primary-600 hover:underline dark:text-primary-500"
+                className="inline-flex items-center font-medium text-slate-800 hover:underline dark:text-slate-400"
               >
                 Read more
                 <svg
@@ -115,7 +115,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Our first project with React</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.
@@ -123,7 +123,7 @@ const CardWithImageBlogSection: FC = function () {
             <div className="flex items-center space-x-4">
               <a
                 href="#"
-                className="inline-flex items-center font-medium text-primary-600 hover:underline dark:text-primary-500"
+                className="inline-flex items-center font-medium text-slate-800 hover:underline dark:text-slate-400"
               >
                 Read more
                 <svg

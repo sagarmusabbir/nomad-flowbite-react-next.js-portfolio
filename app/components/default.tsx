@@ -14,7 +14,7 @@ const DefaultHeaderNavigation: FC = function () {
       <Navbar className="  max-w-screen-lg mx-auto  ">
         <Navbar.Brand href="https://flowbite.com">
           <GiSprint className="mr-2 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" />
-          <span className="hidden lg:block self-center whitespace-nowrap text-xl font-semibold dark:text-slate-200 text-gray-800">
+          <span className="hidden sm:block self-center whitespace-nowrap text-xl font-semibold dark:text-slate-200 text-gray-800">
             Nomad Portfolio
           </span>
         </Navbar.Brand>
@@ -61,48 +61,6 @@ const DefaultHeaderNavigation: FC = function () {
           className="md:order-1 "
         >
           <NavLink />
-
-          {/* <Navbar.Link
-            active
-            theme={{
-              active: {
-                on: "bg-slate-600 text-white dark:text-white  md:bg-transparent md:text-slate-700",
-              },
-            }}
-            className="flex lg:flex-none items-center justify-between"
-            href="#"
-          >
-            <span>Home</span>
-            <MdHome className="w-4 h-4 lg:hidden fill-white ml-2" />
-          </Navbar.Link>
-          <Navbar.Link
-            href="#"
-            className="flex lg:flex-none items-center justify-between"
-          >
-            About
-            <MdPerson className="w-4 h-4 lg:hidden fill-gray-700 ml-2" />
-          </Navbar.Link>
-          <Navbar.Link
-            href="#"
-            className="flex lg:flex-none items-center justify-between"
-          >
-            Projects
-            <MdComputer className="w-4 h-4 lg:hidden fill-gray-700 ml-2" />
-          </Navbar.Link>
-          <Navbar.Link
-            href="#"
-            className="flex lg:flex-none items-center justify-between"
-          >
-            Blog
-            <MdKeyboard className="w-4 h-4 lg:hidden fill-gray-700 ml-2" />
-          </Navbar.Link>
-          <Navbar.Link
-            href="#"
-            className="flex lg:flex-none items-center justify-between"
-          >
-            Contact
-            <MdLocalPhone className="w-4 h-4 lg:hidden fill-gray-700 ml-2" />
-          </Navbar.Link> */}
         </Navbar.Collapse>
       </Navbar>
     </header>

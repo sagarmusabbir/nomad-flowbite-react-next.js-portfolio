@@ -1,5 +1,11 @@
 "use client";
-import { Dropdown, Footer, FooterBrand, FooterIcon } from "flowbite-react";
+import {
+  Button,
+  Dropdown,
+  Footer,
+  FooterBrand,
+  FooterIcon,
+} from "flowbite-react";
 import { Span } from "next/dist/trace";
 import Link from "next/link";
 import type { FC } from "react";
@@ -15,8 +21,8 @@ import { MdEmail, MdPhone } from "react-icons/md";
 const NewsletterSignUpFooterSection: FC = function () {
   return (
     <Footer className="rounded-none">
-      <div className="mx-auto  max-w-screen-lg p-4 py-6 md:p-8 lg:p-10">
-        <div className="mx-auto mb-6 max-w-screen-md items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
+      <div className="mx-auto  max-w-screen-lg p-4 py-8 md:p-8 lg:p-10">
+        <div className="mx-auto mb-8 max-w-screen-md items-center justify-between rounded-lg bg-gray-50 p-6 dark:bg-gray-700 sm:flex lg:mb-16 lg:my-10">
           <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
             Sign up to our newsletter
           </p>
@@ -56,7 +62,7 @@ const NewsletterSignUpFooterSection: FC = function () {
           </form>
         </div>
 
-        <div className="gap-10 my-6  mx-auto lg:my-16 space-y-12 grid md:grid-cols-2  sm:grid-cols-2 sm:space-y-0 lg:grid-cols-4">
+        <div className="gap-6 my-10  mx-auto lg:my-16 space-y-12 grid md:grid-cols-2  sm:grid-cols-2 sm:space-y-0 lg:grid-cols-4">
           <address className="not-italic">
             <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
               United Kingdom
@@ -76,50 +82,26 @@ const NewsletterSignUpFooterSection: FC = function () {
               </li>
             </ul>
           </address>
-          {/* <address className="not-italic">
-            <p className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-              Bangladesh
+          <address className="not-italic">
+            <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              United Kingdom
             </p>
             <p className="mb-3 text-gray-500 dark:text-gray-400">
-              Nowab Manjil,
-              <br /> Town Hall Road 3300, BD
+              340 Dickenson Road,
+              <br /> M130NG, Manchester, UK
             </p>
             <ul className="space-y-3 text-gray-500 dark:text-gray-400">
               <li className="flex items-center">
-                <svg
-                  className="mr-2 h-5 w-5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                +880 1765 692886
+                {/* <MdPhone className="mr-2" /> */}
+                +44 7425 694261
               </li>
               <li className="flex items-center">
-                <svg
-                  className="mr-2 h-5 w-5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
-
-                <a
-                  href="mailto:musabbir@thirdbracket.co.uk"
-                  className="ml-1 hover:underline"
-                >
-                  musabbir@thirdbracket.co.uk
-                </a>
+                {/* <MdEmail className="mr-2" /> */}
+                musabbir@thirdbracket.co.uk
               </li>
             </ul>
-          </address> */}
+          </address>
+
           <div>
             <Footer.Title title="Legal" className="text-gray-800" />
             <Footer.LinkGroup
