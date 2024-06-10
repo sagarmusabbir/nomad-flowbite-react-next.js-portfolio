@@ -12,29 +12,18 @@ const NavLink: FC = function () {
       // className=" flex flex-col lg:my-0 bg-transparent md:flex-row lg:space-x-2 lg:text-base lg:font-medium "
       theme={{
         root: {
-          base: "list-none rounded-lg border border-gray-200 bg-white text-left text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-800 dark:text-white",
+          base: "list-none border border-gray-800 bg-white  text-sm font-normal text-gray-700 dark:border-gray-600 dark:bg-gray-800 dark:text-white flex flex-col lg:my-0 md:flex-row lg:space-x-2  ",
         },
       }}
-      className="flex flex-col lg:my-0 md:flex-row lg:space-x-2 "
+      className="border-0"
     >
       {links.map((link) => (
-        <NavbarLink
-          as={Link}
-          key={link.id}
-          href={link.to}
-
-          //   className={`link ${pathname === "/" ? "active" : { theme }}`}
-          //   theme={{
-          //     active: {
-          //       on: "bg-cyan-700 text-white dark:text-white md:bg-transparent md:text-cyan-700",
-          //     },
-          //   }}
-        >
+        <NavbarLink as={Link} key={link.id} href={link.to}>
           <ListGroup.Item
             icon={link.icon}
             theme={{
               link: {
-                base: "flex md:flex-row w-full items-center border-b lg:!border-b-0 lg:border-r border-gray-200 px-4 py-2 dark:border-gray-600 !rounded-none !bg-transparent",
+                base: "flex w-full items-center hover:!border-0 border-gray-200 px-2 py-0 hover:!bg-transparent dark:hover:!bg-transparent hover:!text-gray-800 dark:hover:!text-gray-100 focus:!ring-0 focus:!text-800 dark:focus:!text-gray-100 dark:border-gray-600",
               },
             }}
           >

@@ -5,10 +5,12 @@ import type { FC } from "react";
 import { MdDownload } from "react-icons/md";
 import { GiHoodedFigure, GiSprint } from "react-icons/gi";
 import NavLink from "./sidebar";
+import AnnouncementBanner from "./announcement";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-800">
+      <AnnouncementBanner />
       <Navbar className="  max-w-screen-lg mx-auto  ">
         <Navbar.Brand href="https://flowbite.com">
           <GiSprint className="mr-2 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" />
@@ -54,7 +56,7 @@ const DefaultHeaderNavigation: FC = function () {
         </div>
         <Navbar.Collapse
           theme={{
-            list: "my-8 flex flex-col md:my-0 md:flex-row md:space-x-0 lg:text-base lg:font-medium",
+            list: "my-8 flex flex-col md:my-0 md:flex-row md:space-x-0 lg:text-base lg:font-medium ",
           }}
           className="md:order-1 "
         >

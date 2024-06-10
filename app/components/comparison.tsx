@@ -13,11 +13,11 @@ import { SiGithub, SiStackoverflow, SiUpwork } from "react-icons/si";
 
 const ComparisonCardsFeatureSection: FC = function () {
   return (
-    <section className="bg-slate-50 dark:bg-[#16161D]">
+    <section className="bg-slate-50 dark:bg-black">
       <div className="mx-auto max-w-screen-lg px-4 py-8 sm:py-16 lg:px-6">
         <div className="grid space-y-8 lg:grid-cols-2 lg:gap-12 lg:space-y-0">
           <div>
-            <Badge
+            {/* <Badge
               href="#"
               color="light"
               icon={MdNewLabel}
@@ -33,7 +33,7 @@ const ComparisonCardsFeatureSection: FC = function () {
             >
               <span className="font-medium">New!</span> Tailwind Developer
               Portfolio Template is Out Now.
-            </Badge>
+            </Badge> */}
             <Avatar
               img="/person.svg"
               rounded
