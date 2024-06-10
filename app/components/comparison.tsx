@@ -66,7 +66,7 @@ const ComparisonCardsFeatureSection: FC = function () {
           <div>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-gray-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-gray-400 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
@@ -79,7 +79,8 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-2 border-slate-700 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-400 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-gray-400
+              dark:border-gray-500 bg-white p-4 shadow hover:bg-gray-50  dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
@@ -91,7 +92,7 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="flex items-center justify-between rounded-lg border-l-2 border-gray-600 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
+              className="flex items-center justify-between rounded-lg border-l-8 border-gray-400 bg-white p-4 shadow hover:bg-gray-50 dark:border-gray-500 dark:bg-gray-800 dark:hover:bg-gray-700 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
