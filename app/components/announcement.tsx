@@ -13,7 +13,7 @@ const AnnouncementBanner: FC = function () {
           <p className="text-sm font-medium text-gray-900 dark:text-white md:my-0">
             Tailwind Developer Portfolio Template is Out Now.
             <Badge
-              href="#" color="gray"
+              href="#" color="gray" size="sm"
               className="inline-flex items-center "
             >
             Check it out!
