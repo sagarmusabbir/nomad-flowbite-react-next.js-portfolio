@@ -7,7 +7,7 @@ const CardWithImageBlogSection: FC = function () {
       <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
         <div className="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Our Blog
+            Latest Articles
           </h2>
           <p className="text-gray-500 dark:text-gray-400 sm:text-xl">
             We use an agile approach to test assumptions and connect with the
