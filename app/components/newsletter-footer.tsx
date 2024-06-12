@@ -155,6 +155,7 @@ const NewsletterSignUpFooterSection: FC = function () {
               src="https://game-icons.net/icons/000000/transparent/1x1/lorc/sprint.svg"
               alt="Nomad-portfolio"
               name="Nomad Portfolio"
+className="dark:invert"
             />
           </div>
 
