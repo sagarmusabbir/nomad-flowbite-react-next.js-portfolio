@@ -4,7 +4,7 @@ import type { FC } from "react";
 const CardWithImageBlogSection: FC = function () {
   return (
     <section className="bg-white dark:bg-black">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
+      <div className="mx-auto max-w-screen-lg px-4 py-8 lg:px-6 lg:py-16">
         <div className="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
             Latest Articles
@@ -31,7 +31,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Our first office</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.
@@ -73,7 +73,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">We partnered up with Google</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.
@@ -115,7 +115,7 @@ const CardWithImageBlogSection: FC = function () {
             <h2 className="-my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Our first project with React</a>
             </h2>
-            <p className="text-gray-500 dark:text-gray-400 line-clamp-3">
+            <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
               Over the past year, Volosoft has undergone many changes! After
               months of preparation and some hard work, we moved to our new
               office.

@@ -5,18 +5,20 @@ import { MdFiberNew } from "react-icons/md";
 const AnnouncementBanner: FC = function () {
   return (
     <Banner>
-      <div className="flex w-full items-center justify-center border border-b border-gray-200 bg-gray-50 px-4 py-2 dark:border-gray-800 dark:bg-gray-700 bg-gray-50">
+      <div className="flex w-full items-center justify-center border border-b border-gray-200 dark:border-gray-800 bg-gray-50 px-4 py-2  dark:bg-gray-700 bg-gray-50">
         <div className="mx-auto flex items-center gap-x-3">
           <span className="md:inline">
-          <MdFiberNew className="w-6 h-6 fill-gray-500 dark:fill-gray-300"/>
+            <MdFiberNew className="w-6 h-6 fill-gray-500 dark:fill-gray-300" />
           </span>
           <p className="text-sm font-medium text-gray-900 dark:text-white md:my-0">
             Tailwind Developer Portfolio Template is Out Now.
             <Badge
-              href="#" color="gray" size="sm"
+              href="#"
+              color="gray"
+              size="sm"
               className="inline-flex items-center "
             >
-            Check it out!
+              Check it out!
             </Badge>
           </p>
         </div>

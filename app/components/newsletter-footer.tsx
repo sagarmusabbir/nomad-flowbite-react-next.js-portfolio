@@ -82,25 +82,6 @@ const NewsletterSignUpFooterSection: FC = function () {
               </li>
             </ul>
           </address>
-          <address className="not-italic">
-            <p className=" mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-              United Kingdom
-            </p>
-            <p className="mb-3 text-gray-500 dark:text-gray-400">
-              340 Dickenson Road,
-              <br /> M130NG, Manchester, UK
-            </p>
-            <ul className="space-y-3 text-gray-500 dark:text-gray-400">
-              <li className="flex items-center">
-                {/* <MdPhone className="mr-2" /> */}
-                +44 7425 694261
-              </li>
-              <li className="flex items-center">
-                {/* <MdEmail className="mr-2" /> */}
-                musabbir@thirdbracket.co.uk
-              </li>
-            </ul>
-          </address>
 
           <div>
             <Footer.Title title="Legal" className="text-gray-800" />
@@ -155,7 +136,9 @@ const NewsletterSignUpFooterSection: FC = function () {
               src="https://game-icons.net/icons/000000/transparent/1x1/lorc/sprint.svg"
               alt="Nomad-portfolio"
               name="Nomad Portfolio"
-className="dark:invert"
+              theme={{
+                img: "mr-3 h-8 dark:invert",
+              }}
             />
           </div>
 

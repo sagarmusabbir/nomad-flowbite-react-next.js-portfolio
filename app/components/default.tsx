@@ -1,16 +1,21 @@
 "use client";
-import { Button, DarkThemeToggle, Navbar } from "flowbite-react";
+import { Button, DarkThemeToggle, Drawer, Navbar } from "flowbite-react";
 import Link from "next/link";
 import type { FC } from "react";
 import { MdDownload } from "react-icons/md";
 import { GiHoodedFigure, GiSprint } from "react-icons/gi";
 import NavLink from "./sidebar";
 import AnnouncementBanner from "./announcement";
+import { Contact } from "./comtact";
+// import { Contact } from "./comtact";
 
 const DefaultHeaderNavigation: FC = function () {
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-gray-800">
+    <header className="sticky top-0 z-50 bg-white dark:bg-gray-800 border border-b border-gray-200 dark:border-gray-800">
       <AnnouncementBanner />
+
+      <Contact />
+
       <Navbar className="  max-w-screen-lg mx-auto  ">
         <Navbar.Brand href="https://flowbite.com">
           <GiSprint className="mr-2 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" />
@@ -26,22 +31,6 @@ const DefaultHeaderNavigation: FC = function () {
               },
             }}
           />
-
-          {/* <Button
-            color="gray"
-            outline
-            size="sm"
-            theme={{
-              color: {
-                gray: ":ring-slate-700 border border-slate-200 bg-white text-gray-900 focus:text-slate-700 focus:ring-4 enabled:hover:bg-gray-100 enabled:hover:text-slate-700 dark:border-gray-600 dark:bg-transparent dark:text-gray-400 dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white",
-              },
-            }}
-          >
-            <Link href="#" className="inline-flex items-center">
-              <span>CV</span>
-              <MdDownload className="ml-2" />
-            </Link>
-          </Button> */}
 
           <Button size="sm" color="light">
             CV

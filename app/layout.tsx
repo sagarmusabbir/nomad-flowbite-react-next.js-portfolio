@@ -29,6 +29,7 @@ export default function RootLayout({
         <DefaultHeaderNavigation />
 
         {children}
+
         <NewsletterSignUpFooterSection />
       </body>
     </html>

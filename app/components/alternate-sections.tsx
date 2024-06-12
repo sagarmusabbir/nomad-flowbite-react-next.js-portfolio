@@ -4,7 +4,7 @@ import type { FC } from "react";
 const ProjectPortfolioAlternateSections: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-900 antialiased">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+      <div className="max-w-screen-lg px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
             Latest Projects
@@ -28,7 +28,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                 alt=""
               />
             </div>
-            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
+            <div className="w-full space-y-6 lg:max-w-sm shrink-0 xl:max-w-sm">
               <div className="space-y-3">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
                   Flowbite's dashboard
@@ -125,7 +125,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                 alt=""
               />
             </div>
-            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl lg:order-1">
+            <div className="w-full space-y-6 lg:max-w-sm shrink-0 xl:max-w-sm lg:order-1">
               <div className="space-y-3">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
                   Agency Landing Page
@@ -215,7 +215,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                 alt=""
               />
             </div>
-            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
+            <div className="w-full space-y-6 lg:max-w-sm shrink-0 xl:max-w-sm">
               <div className="space-y-3">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
                   Mail management system
