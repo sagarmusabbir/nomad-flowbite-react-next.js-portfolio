@@ -14,9 +14,9 @@ const AnnouncementBanner: FC = function () {
             Tailwind Developer Portfolio Template is Out Now.
             <Badge
               href="#" color="gray"
-              className="ml-2 inline-flex items-center "
+              className="inline-flex items-center "
             >
-              Check it out!
+            Check it out!
             </Badge>
           </p>
         </div>
