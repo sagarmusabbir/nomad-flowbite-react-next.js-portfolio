@@ -5,10 +5,10 @@ import { HiX } from "react-icons/hi";
 const AnnouncementBanner: FC = function () {
   return (
     <Banner>
-      <div className="flex w-full items-center justify-center border border-b border-gray-200 bg-gray-50 px-4 py-2 dark:border-gray-700 dark:bg-gray-800">
+      <div className="flex w-full items-center justify-center border border-b border-gray-200 bg-gray-50 px-4 py-2 dark:border-gray-700 dark:bg-gray-700 bg-slate-50">
         <div className="mx-auto flex items-center gap-x-3">
-          <Badge color="dark" className="w-fit md:inline">
-            New
+          <Badge color="dark" icon={MdFiberNew} className="w-fit md:inline">
+          
           </Badge>
           <p className="text-sm font-medium text-gray-900 dark:text-white md:my-0">
             Tailwind Developer Portfolio Template is Out Now.
