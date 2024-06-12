@@ -1,6 +1,6 @@
 import { Badge, Banner } from "flowbite-react";
 import type { FC } from "react";
-import { HiX } from "react-icons/hi";
+import { MdFiberNew } from "react-icons/md";
 
 const AnnouncementBanner: FC = function () {
   return (
