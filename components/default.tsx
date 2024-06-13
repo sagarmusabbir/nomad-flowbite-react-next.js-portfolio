@@ -47,7 +47,7 @@ export function HeaderNavigation() {
         </Link>
         <NavbarToggle />
       </div>
-      <NavbarCollapse>
+      <NavbarCollapse className="min-h-screen">
         <NavLink />
 
         <NavbarLink
