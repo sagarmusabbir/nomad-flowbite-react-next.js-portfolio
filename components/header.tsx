@@ -23,6 +23,7 @@ import {
   PiDownload,
   PiDownloadFill,
   PiMoonBold,
+  PiRows,
   PiRowsBold,
   PiRowsLight,
   PiSunBold,
@@ -62,7 +63,7 @@ const DefaultHeaderNavigation: FC = function () {
             theme={{
               icon: "w-6 h-6 sm:w-9 sm:h-9 shrink-0 fill-gray-800 dark:fill-slate-200",
             }}
-            barIcon={PiRowsBold}
+            barIcon={PiRows}
           />
         </div>
         <Navbar.Collapse className="md:order-1 ">

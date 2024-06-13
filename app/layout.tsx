@@ -6,6 +6,7 @@ import { ThemeModeScript } from "flowbite-react";
 import DefaultHeaderNavigation from "../components/header";
 import NewsletterSignUpFooterSection from "../components/footer";
 import { Contact } from "@/components/contact";
+import { HeaderNavigation } from "@/components/default";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,8 @@ export default function RootLayout({
         <ThemeModeScript />
       </head>
       <body className={inter.className}>
-        <DefaultHeaderNavigation />
+        {/* <DefaultHeaderNavigation /> */}
+        <HeaderNavigation />
 
         {children}
         <Contact />

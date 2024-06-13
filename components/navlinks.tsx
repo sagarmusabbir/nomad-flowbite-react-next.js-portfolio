@@ -1,4 +1,3 @@
-"use client";
 import { links } from "@/site";
 import { ListGroup, NavbarLink, theme } from "flowbite-react";
 import { FC } from "react";
@@ -9,16 +8,15 @@ const NavLink: FC = function () {
   return (
     <>
       {links.map((link) => (
-        <li key={link.id}>
-          <NavbarLink
-            as={Link}
-            href={link.to}
-            className="flex items-center justify-between text-gray-800 dark:text-slate-200 gap-2"
-          >
-            {link.name}
-            <link.icon />
-          </NavbarLink>
-        </li>
+        <NavbarLink
+          as={Link}
+          key={link.id}
+          href={link.to}
+          className="flex items-center justify-between text-gray-800 dark:text-slate-200 "
+        >
+          {link.name}
+          <link.icon className="ml-2 self-center" />
+        </NavbarLink>
       ))}
     </>
   );
