@@ -17,6 +17,7 @@ import {
   BsDribbble,
 } from "react-icons/bs";
 import { MdEmail, MdPhone } from "react-icons/md";
+import { Contact } from "./contact";
 
 const NewsletterSignUpFooterSection: FC = function () {
   return (

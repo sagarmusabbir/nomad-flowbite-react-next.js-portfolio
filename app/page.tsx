@@ -1,7 +1,6 @@
-import ProjectPortfolioAlternateSections from "./components/alternate-sections";
-import CardWithImageBlogSection from "./components/card-with-image";
-import ComparisonCardsFeatureSection from "./components/comparison";
-import { Contact } from "./components/comtact";
+import ProjectPortfolioAlternateSections from "../components/project";
+import CardWithImageBlogSection from "../components/blog";
+import ComparisonCardsFeatureSection from "../components/hero";
 
 export default function Home() {
   return (

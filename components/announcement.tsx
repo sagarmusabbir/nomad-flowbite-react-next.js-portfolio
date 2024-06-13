@@ -6,7 +6,7 @@ const AnnouncementBanner: FC = function () {
   return (
     <Banner>
       <div className="flex w-full items-center justify-center border border-b border-gray-200 dark:border-gray-800 bg-gray-50 px-4 py-2  dark:bg-gray-700 bg-gray-50">
-        <div className="mx-auto flex items-center gap-x-3">
+        <div className="mx-auto flex items-center gap-x-2 text-center">
           <span className="hidden md:inline">
             <MdFiberNew className="w-6 h-6 fill-gray-500 dark:fill-gray-300" />
           </span>
@@ -16,7 +16,7 @@ const AnnouncementBanner: FC = function () {
               href="#"
               color="light"
               size="sm"
-              className="inline-flex items-center ml-2"
+              className="inline-flex items-center ml-1"
             >
               Check it out!
             </Badge>

@@ -1,25 +1,9 @@
-import { BsHouse } from "react-icons/bs";
 import { LinkItem } from "./lib/types";
 
 import {
-  MdHome,
-  MdPersonPin,
-  MdKeyboard,
-  MdComputer,
-  MdContacts,
-  MdTv,
-  MdOutlineHome,
-  MdOutlineHouse,
-  MdHomeFilled,
-  MdTerminal,
-  MdOutlineScreenshotMonitor,
-} from "react-icons/md";
-import {
   PiArticleBold,
   PiHouseBold,
-  PiHouseSimpleFill,
   PiPersonSimpleWalkBold,
-  PiTerminalFill,
   PiTerminalWindowBold,
 } from "react-icons/pi";
 
@@ -37,17 +21,17 @@ export const links: LinkItem[] = [
   // { id: 3, name: "Search", to: "/search" },
 ];
 
-// export const siteData = {
-//   title: "Musabbirs Terminal",
-//   author: "Musabbir Sagar",
-//   headerTitle: "Musabbirs Terminal",
-//   profileUrl: "/logo.svg",
-//   headerDescription: "Full Stack Next.js Developer",
-//   footerText: "© All rights reserved",
-//   language: "en-us",
-//   locale: "en-US",
-//   websiteUrl: "musabbirsagar.com",
-// };
+export const siteData = {
+  title: "Musabbirs Terminal",
+  author: "Musabbir Sagar",
+  headerTitle: "Musabbirs Terminal",
+  profileUrl: "/logo.svg",
+  headerDescription: "Full Stack Next.js Developer",
+  footerText: "© All rights reserved",
+  language: "en-us",
+  locale: "en-US",
+  websiteUrl: "musabbirsagar.com",
+};
 
 // export const footerNavigation: FooterNavItem[] = [
 //   {

@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeModeScript } from "flowbite-react";
 
-import DefaultHeaderNavigation from "./components/default";
-import NewsletterSignUpFooterSection from "./components/newsletter-footer";
-import DefaultSidebar from "./components/navlinks";
+import DefaultHeaderNavigation from "../components/header";
+import NewsletterSignUpFooterSection from "../components/footer";
+import { Contact } from "@/components/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         <DefaultHeaderNavigation />
 
         {children}
-
+        <Contact />
         <NewsletterSignUpFooterSection />
       </body>
     </html>

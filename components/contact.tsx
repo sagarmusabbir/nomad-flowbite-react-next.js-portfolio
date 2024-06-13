@@ -1,59 +1,47 @@
 "use client";
 
-import { Button, Drawer, Label, TextInput, Textarea } from "flowbite-react";
+import { Button, Drawer, Label, TextInput } from "flowbite-react";
 import { useState } from "react";
-import { BsFacebook } from "react-icons/bs";
+
 import {
-  MdAdd,
-  MdAddCall,
-  MdArrowOutward,
   MdCall,
-  MdCallEnd,
-  MdCallMade,
-  MdCallToAction,
-  MdContactPhone,
-  MdContactSupport,
   MdEmail,
   MdFacebook,
-  MdInsertLink,
-  MdInstallMobile,
-  MdKeyboardReturn,
   MdMessage,
-  MdPhone,
-  MdPhoneCallback,
-  MdPhoneIphone,
-  MdPlusOne,
   MdWhatsapp,
 } from "react-icons/md";
-import { SiFiverr, SiUpwork } from "react-icons/si";
+import {
+  PiArrowElbowDownLeftLight,
+  PiArrowLineUpRightLight,
+  PiDeviceMobileSpeakerBold,
+  PiDownloadBold,
+  PiFilmScriptBold,
+  PiPhone,
+  PiQuestionFill,
+} from "react-icons/pi";
+import { SiUpwork } from "react-icons/si";
 
 export function Contact() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClose = () => setIsOpen(false);
 
+  // const options={
+  //   bodyScrolling: false,
+
+  // }
+
   return (
     <>
-      {/* <Button
-      
-        className="fixed bottom-8 right-4 "
-        onClick={() => setIsOpen(true)}
-        color="light"
-        size="xs"
-        outline
-      >
-        <MdContactSupport className="w-8 h-8" />
-      </Button> */}
-
       <a
         onClick={() => setIsOpen(true)}
         className="fixed bottom-8 right-4 cursor-pointer "
       >
-        <MdContactSupport className="w-12 h-12 fill-gray-800 dark:fill-slate-200 stroke-gray-900 " />
+        <PiQuestionFill className="w-12 h-12 fill-gray-800 dark:fill-slate-200 stroke-gray-900 " />
       </a>
 
       <Drawer open={isOpen} onClose={handleClose} position="right">
-        <Drawer.Header title="Contact" />
+        <Drawer.Header title="Contact" titleIcon={PiFilmScriptBold} />
         <Drawer.Items>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
             You can reach me directly by calling/emailing/messeging my social
@@ -75,8 +63,8 @@ export function Contact() {
                   name="phone-input"
                   placeholder="580 2158 2158"
                   type="text"
-                  icon={MdPhone}
-                  rightIcon={MdKeyboardReturn}
+                  icon={PiPhone}
+                  rightIcon={PiArrowElbowDownLeftLight}
                   className="mt-3 w-full"
                 />
               </div>
@@ -88,28 +76,20 @@ export function Contact() {
                   size="sm"
                   color="dark"
                 >
-                  <MdPhoneIphone className="self-center" />
+                  <PiDeviceMobileSpeakerBold className="self-center" />
                   <span className="self-center ml-2">Request Callback</span>
                 </Button>
               </div>
             </form>
           </div>
 
-          {/* <a
-              href="#"
-              className=" flex items-center justify-center gap-2 border rounded-md px-1 py-1.5 text-gray-800 dark:text-slate-200 border-gray-800 dark:border-slate-200 hover:bg-gray-800 hover:text-white dark:hover:bg-slate-200 dark:hover:text-gray-800 fill-gray-800 hover:fill-slate-200dark:hover:fill-gray-800 dark:fill-slate-200 text text-sm"
-            >
-              Hire on
-              <SiFiverr className="w-4 h-4  " />
-              <MdArrowOutward className="h-4 w-4  " />
-            </a> */}
-          <Button className="w-full mb-4" size="sm" color="light" outline>
-            Hire on <SiFiverr className="self-center w-5 h-5 ml-2" />
-            <MdArrowOutward className="h-4 w-4 self-center ml-2  " />
-          </Button>
           <Button className="w-full mb-4" size="sm" color="light">
             Hire on <SiUpwork className="self-center w-5 h-5 ml-2" />
-            <MdArrowOutward className="h-4 w-4 self-center ml-2  " />
+            <PiArrowLineUpRightLight className="h-4 w-4 self-center ml-2  " />
+          </Button>
+
+          <Button className="w-full mb-4" size="sm" color="light" outline>
+            Download CV <PiDownloadBold className="self-center w-5 h-5 ml-2" />
           </Button>
 
           <div className="mt-2 flex flex-wrap gap-4  sm:mt-0 ">
@@ -133,4 +113,7 @@ export function Contact() {
       </Drawer>
     </>
   );
+}
+function bodyScrolling(arg0: boolean) {
+  throw new Error("Function not implemented.");
 }
