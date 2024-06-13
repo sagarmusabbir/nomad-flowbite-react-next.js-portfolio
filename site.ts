@@ -1,18 +1,38 @@
+import { BsHouse } from "react-icons/bs";
 import { LinkItem } from "./lib/types";
 
 import {
   MdHome,
-  MdPerson,
+  MdPersonPin,
   MdKeyboard,
   MdComputer,
   MdContacts,
+  MdTv,
+  MdOutlineHome,
+  MdOutlineHouse,
+  MdHomeFilled,
+  MdTerminal,
+  MdOutlineScreenshotMonitor,
 } from "react-icons/md";
+import {
+  PiArticleBold,
+  PiHouseBold,
+  PiHouseSimpleFill,
+  PiPersonSimpleWalkBold,
+  PiTerminalFill,
+  PiTerminalWindowBold,
+} from "react-icons/pi";
 
 export const links: LinkItem[] = [
-  { id: 0, name: "Home", to: "/", icon: MdHome },
-  { id: 1, name: "Projects", to: "/projects", icon: MdComputer },
-  { id: 2, name: "About", to: "/about", icon: MdPerson },
-  { id: 3, name: "Blog", to: "/blog", icon: MdKeyboard },
+  { id: 0, name: "Home", to: "/", icon: PiHouseBold },
+  {
+    id: 1,
+    name: "Projects",
+    to: "/projects",
+    icon: PiTerminalWindowBold,
+  },
+  { id: 2, name: "About", to: "/about", icon: PiPersonSimpleWalkBold },
+  { id: 3, name: "Blog", to: "/blog", icon: PiArticleBold },
 
   // { id: 3, name: "Search", to: "/search" },
 ];

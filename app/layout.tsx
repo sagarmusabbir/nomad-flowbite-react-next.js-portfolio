@@ -5,7 +5,7 @@ import { ThemeModeScript } from "flowbite-react";
 
 import DefaultHeaderNavigation from "./components/default";
 import NewsletterSignUpFooterSection from "./components/newsletter-footer";
-import DefaultSidebar from "./components/sidebar";
+import DefaultSidebar from "./components/navlinks";
 
 const inter = Inter({ subsets: ["latin"] });
 
