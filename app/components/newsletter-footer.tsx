@@ -137,7 +137,7 @@ const NewsletterSignUpFooterSection: FC = function () {
               alt="Nomad-portfolio"
               name="Nomad Portfolio"
               theme={{
-                img: "mr-3 h-8 dark:invert",
+                img: "dark:invert h-8 mr-3",
               }}
             />
           </div>

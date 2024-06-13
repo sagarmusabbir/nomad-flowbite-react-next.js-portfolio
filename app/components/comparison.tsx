@@ -23,16 +23,16 @@ const ComparisonCardsFeatureSection: FC = function () {
               bordered
               size="xl"
               className="justify-start mb-4"
-              color="gray"
+              color="dark"
               theme={{
                 root: {
                   color: {
-                    gray: " bg-slate-200 ring-slate-300 rounded-full shadow-lg ",
+                    dark: " bg-gray-100 ring-gray-800 rounded-full shadow-lg ",
                   },
                 },
               }}
             >
-              <div className="space-y-1 font-medium text-2xl dark:text-white">
+              <div className="space-y-1 font-semibold text-2xl dark:text-white">
                 <h1>Nomad Developer</h1>
                 <span className=" text-gray-500 text-xl dark:text-gray-400">
                   AWS Cloud Architect
@@ -40,7 +40,7 @@ const ComparisonCardsFeatureSection: FC = function () {
               </div>
             </Avatar>
 
-            <p className=" text-gray-500 dark:text-gray-400 sm:text-xl">
+            <p className=" text-gray-600 dark:text-gray-400 sm:text-xl">
               Free Next.js Tailwind Developer Portfolio Template Created by
               NomadGang. NomadGang is an Open Source platform by Third Bracket
               Solution.
@@ -49,7 +49,7 @@ const ComparisonCardsFeatureSection: FC = function () {
           <div>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-slate-200 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-gray-400 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
@@ -62,7 +62,7 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-slate-200 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-gray-400 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">
@@ -74,7 +74,7 @@ const ComparisonCardsFeatureSection: FC = function () {
             </a>
             <a
               href="#"
-              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-slate-200 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
+              className="mb-6 flex items-center justify-between rounded-lg border-l-8 border-gray-400 bg-white p-4 shadow hover:bg-gray-50 dark:border-slate-500 dark:bg-gray-800 dark:hover:bg-slate-800 shadow-md"
             >
               <div>
                 <span className="mb-1 block text-xs font-medium uppercase text-gray-500 dark:text-gray-400">

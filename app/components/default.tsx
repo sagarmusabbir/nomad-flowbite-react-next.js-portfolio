@@ -17,8 +17,8 @@ const DefaultHeaderNavigation: FC = function () {
       <Contact />
 
       <Navbar className="  max-w-screen-lg mx-auto  ">
-        <Navbar.Brand href="https://flowbite.com">
-          <GiSprint className="mr-2 w-6 h-6 sm:w-9 sm:h-9 fill-gray-800 dark:fill-slate-200" />
+        <Navbar.Brand as={Link} href="https://flowbite-react.com">
+          <GiSprint className="mr-3 h-6 sm:h-9 fill-gray-800 dark:fill-slate-200" />
           <span className="hidden sm:block self-center whitespace-nowrap text-xl font-semibold dark:text-slate-200 text-gray-800">
             Nomad Portfolio
           </span>
@@ -32,7 +32,7 @@ const DefaultHeaderNavigation: FC = function () {
             }}
           />
 
-          <Button size="sm" color="light">
+          <Button href="/" size="sm" color="dark">
             CV
             <MdDownload className="ml-2 h-5 w-5 shrink-0" />
           </Button>

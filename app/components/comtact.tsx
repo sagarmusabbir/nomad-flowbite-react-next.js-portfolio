@@ -34,7 +34,8 @@ export function Contact() {
 
   return (
     <>
-      <Button
+      {/* <Button
+      
         className="fixed bottom-8 right-4 "
         onClick={() => setIsOpen(true)}
         color="light"
@@ -42,7 +43,14 @@ export function Contact() {
         outline
       >
         <MdContactSupport className="w-8 h-8" />
-      </Button>
+      </Button> */}
+
+      <a
+        onClick={() => setIsOpen(true)}
+        className="fixed bottom-8 right-4 cursor-pointer "
+      >
+        <MdContactSupport className="w-12 h-12 fill-gray-800 dark:fill-slate-200 stroke-gray-900 " />
+      </a>
 
       <Drawer open={isOpen} onClose={handleClose} position="right">
         <Drawer.Header title="Contact" />
@@ -95,30 +103,30 @@ export function Contact() {
               <SiFiverr className="w-4 h-4  " />
               <MdArrowOutward className="h-4 w-4  " />
             </a> */}
-          <Button className="w-full mb-4" size="sm" color="gray" outline>
+          <Button className="w-full mb-4" size="sm" color="light" outline>
             Hire on <SiFiverr className="self-center w-5 h-5 ml-2" />
             <MdArrowOutward className="h-4 w-4 self-center ml-2  " />
           </Button>
-          <Button className="w-full mb-4" size="sm" color="gray" outline>
+          <Button className="w-full mb-4" size="sm" color="light">
             Hire on <SiUpwork className="self-center w-5 h-5 ml-2" />
             <MdArrowOutward className="h-4 w-4 self-center ml-2  " />
           </Button>
 
           <div className="mt-2 flex flex-wrap gap-4  sm:mt-0 ">
             <a href="#">
-              <MdWhatsapp className="w-6 h-6 sm:w-10 sm:h-10 fill-gray-800 dark:fill-slate-200" />
+              <MdWhatsapp className="w-10 h-10 fill-gray-800 dark:fill-slate-200" />
             </a>
             <a href="#">
-              <MdCall className="w-6 h-6 sm:w-10 sm:h-10 fill-gray-800 dark:fill-slate-200" />
+              <MdCall className="w-10 h-10 fill-gray-800 dark:fill-slate-200" />
             </a>
             <a href="#">
-              <MdEmail className="w-6 h-6 sm:w-10 sm:h-10 fill-gray-800 dark:fill-slate-200" />
+              <MdEmail className="w-10 h-10 fill-gray-800 dark:fill-slate-200" />
             </a>
             <a href="#">
-              <MdFacebook className="w-6 h-6 sm:w-10 sm:h-10 fill-gray-800 dark:fill-slate-200" />
+              <MdFacebook className="w-10 h-10 fill-gray-800 dark:fill-slate-200" />
             </a>
             <a href="#">
-              <MdMessage className="w-6 h-6 sm:w-10 sm:h-10 fill-gray-800 dark:fill-slate-200" />
+              <MdMessage className="w-10 h-10 fill-gray-800 dark:fill-slate-200" />
             </a>
           </div>
         </Drawer.Items>

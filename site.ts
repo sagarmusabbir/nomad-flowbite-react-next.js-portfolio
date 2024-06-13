@@ -13,7 +13,6 @@ export const links: LinkItem[] = [
   { id: 1, name: "Projects", to: "/projects", icon: MdComputer },
   { id: 2, name: "About", to: "/about", icon: MdPerson },
   { id: 3, name: "Blog", to: "/blog", icon: MdKeyboard },
-  { id: 4, name: "Contacts", to: "/contacts", icon: MdContacts },
 
   // { id: 3, name: "Search", to: "/search" },
 ];
