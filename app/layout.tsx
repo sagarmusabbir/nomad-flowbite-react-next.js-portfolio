@@ -29,8 +29,10 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <DefaultHeaderNavigation /> */}
         <HeaderNavigation />
+        <Contact />
 
         {children}
+
         <Contact />
         <NewsletterSignUpFooterSection />
       </body>

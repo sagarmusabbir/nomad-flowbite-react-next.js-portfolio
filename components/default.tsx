@@ -22,6 +22,7 @@ import {
   PiDownload,
   PiDownloadFill,
 } from "react-icons/pi";
+import { DefaultDrawer } from "./drawer";
 
 export function HeaderNavigation() {
   return (
@@ -39,18 +40,25 @@ export function HeaderNavigation() {
       </NavbarBrand>
       <div className="flex md:order-2 gap-2">
         <DarkThemeToggle />
-        <Link href="#">
+        <Link href="#" className="hidden md:block">
           <Button size="sm" color="light">
             CV
-            <PiDownloadFill className="ml-auto md:ml-2 self-center w-4 h-4" />
+            <PiDownloadFill className="ml-2 self-center w-4 h-4" />
           </Button>
         </Link>
+        <Link href="#" className="hidden md:block">
+          <Button color="dark" size="sm">
+            Button
+            <SiUpwork className="ml-2 self-center w-4 h-4" />
+          </Button>
+        </Link>
+
         <NavbarToggle />
       </div>
-      <NavbarCollapse className="min-h-screen">
+      <NavbarCollapse className="h-screen sm:h-auto items-center">
         <NavLink />
 
-        <NavbarLink
+        {/* <NavbarLink
           href="#"
           as={Link}
           className="group relative flex items-stretch justify-center border border-gray-300 bg-white text-gray-900 focus:ring-4 focus:ring-cyan-300 enabled:hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-600 dark:text-white dark:focus:ring-gray-700 dark:enabled:hover:border-gray-700 dark:enabled:hover:bg-gray-700 mb-2   p-0.5 md:p-0 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none pl-10 md:dark:bg-transparent md:hover-bg-transparent md:text-gray-800 md:dark:text-slate-200"
@@ -67,7 +75,21 @@ export function HeaderNavigation() {
           Upwork
           <SiUpwork className="self-center ml-2   " />
           <PiArrowUpRightBold className="self-center  w-2 h-2" />
-        </NavbarLink>
+        </NavbarLink> */}
+        <div className="md:hidden my-4 ">
+          <Link href="#">
+            <Button size="sm" color="light" className="w-full mb-2">
+              CV
+              <PiDownloadFill className="ml-auto self-center w-4 h-4" />
+            </Button>
+          </Link>
+          <Link href="#">
+            <Button color="dark" size="sm" className="w-full">
+              Button
+              <SiUpwork className="ml-auto self-center w-4 h-4" />
+            </Button>
+          </Link>
+        </div>
       </NavbarCollapse>
     </Navbar>
   );
