@@ -26,11 +26,6 @@ export function Contact() {
 
   const handleClose = () => setIsOpen(false);
 
-  // const options={
-  //   bodyScrolling: false,
-
-  // }
-
   return (
     <>
       <a
@@ -88,7 +83,7 @@ export function Contact() {
             <PiArrowLineUpRightLight className="h-4 w-4 self-center ml-2  " />
           </Button>
 
-          <Button className="w-full mb-4" size="sm" color="light" outline>
+          <Button className="w-full mb-4" size="sm" color="light">
             Download CV <PiDownloadBold className="self-center w-5 h-5 ml-2" />
           </Button>
 

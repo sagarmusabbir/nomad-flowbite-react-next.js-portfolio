@@ -22,7 +22,7 @@ const ComparisonCardsFeatureSection: FC = function () {
               rounded
               bordered
               size="xl"
-              className="justify-start mb-4"
+              className="justify-start mb-4 "
               color="dark"
               theme={{
                 root: {
@@ -32,7 +32,7 @@ const ComparisonCardsFeatureSection: FC = function () {
                 },
               }}
             >
-              <div className="space-y-1 font-semibold text-2xl dark:text-white">
+              <div className="space-y-1 font-semibold text-2xl dark:text-white whitespace-nowrap">
                 <h1>Nomad Developer</h1>
                 <span className=" text-gray-500 text-xl dark:text-gray-400">
                   AWS Cloud Architect
